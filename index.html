@@ -26,7 +26,7 @@
         <img src="udla_white.png" alt="logo_UDLA-Minds" />
       </div>
 
-      <a href="#" class="navHeader__links">More About Us</a>
+      <a href="#" class="navHeader__links">About Us</a>
     </header>
 
     <!-- home page -->
@@ -74,12 +74,11 @@
     </section>
 
     <footer class="footer" id="footer">
-      <span class="footer-title"> UDLA Minds </span>
-      <a
-        href="https://github.com/WashingtonYandun/Art-Human-Expression-Communication_Portfolio"
-        target="_blank"
-        >All Rights Reserved</a
-      >
+      <span class="footer-title"> UDLA Minds © <span id="current-year"></span>.</span>
+      <a href="https://github.com/WashingtonYandun/Art-Human-Expression-Communication_Portfolio" target="_blank">All Rights Reserved</a>
     </footer>
+    <script>
+      document.getElementById("current-year").innerHTML = new Date().getFullYear();
+    </script>
   </body>
 </html>
