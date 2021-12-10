@@ -186,9 +186,7 @@ header {
 .home {
   min-height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-image: url("../assets/svg/bg_circuit.svg");
 }
 .home__content {
@@ -236,7 +234,7 @@ header {
   border-radius: 1.5px;
   transition: 0.8s ease;
 }
-/* Call to Action (CTA) button */
+/*Call to Action (CTA) button */
 .cta-btn {
   animation: change-background-color 12s infinite;
 }
@@ -332,7 +330,6 @@ header {
 *::-webkit-scrollbar-thumb:hover {
   background-color: rgb(77, 76, 76);
 }
-
 
 /*-----------------------------------RESPONSIVE-----------------------------------*/
 @media (max-width: 1020px) {
