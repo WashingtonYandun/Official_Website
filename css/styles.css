@@ -189,8 +189,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background: linear-gradient(250deg, #222, #333);
-  background-image: url("../assets/svg/circuit.svg");
+  background-image: url("../assets/svg/bg_circuit.svg");
 }
 .home__content {
   max-width: 80%;
