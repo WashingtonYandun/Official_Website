@@ -224,12 +224,12 @@ header {
 .animated-def-text h3 {
   animation: change-text-color 12s infinite;
 }
-.btn {
+.cta-btn {
   margin-top: 25px;
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   color: #fff;
   font-size: 1em;
   font-weight: 600;
@@ -237,10 +237,11 @@ header {
   border-radius: 1.5px;
   transition: 0.8s ease;
 }
-.btn {
+/* Call to Action (CTA) button */
+.cta-btn {
   animation: change-background-color 12s infinite;
 }
-.btn:hover {
+.cta-btn:hover {
   margin-left: 20px;
 }
 .home__social {
