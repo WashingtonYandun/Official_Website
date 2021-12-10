@@ -308,6 +308,32 @@ header {
   font-size: 0.7em;
 }
 
+/*-----------------------------------SCROLLBAR-----------------------------------*/
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(85, 85, 85) rgb(185, 185, 185);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(185, 185, 185);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(85, 85, 85);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(77, 76, 76);
+}
+
+
 /*-----------------------------------RESPONSIVE-----------------------------------*/
 @media (max-width: 1020px) {
   header {
